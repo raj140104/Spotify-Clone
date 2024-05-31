@@ -1,3 +1,8 @@
+/*Complete Frontend of the Spotify Website
+    Technology used : HTML & CSS
+    By : Ritesh Raj
+    (for the purpose of practice my knowledge
+    */
 * {
     font-family: "Montserrat", sans-serif;
     margin: 0;
@@ -5,11 +10,11 @@
     color: #fff;
 }
 
-
 .main {
     display: flex;
 }
 
+/*SideBar of the Spotify*/
 .sidebar {
     position: sticky;
     top: 0;
@@ -19,9 +24,6 @@
     border-radius: 1rem;
     margin: .5rem .3rem;
 }
-
-
-
 
 .side-nav {
 
@@ -170,6 +172,7 @@
     font-size: 1.03rem;
 }
 
+/*Main View of the Spotify*/
 .main-content {
 
     right: 0;

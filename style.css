@@ -11,23 +11,20 @@
 }
 
 .sidebar {
+    position: sticky;
+    top: 0;
     background-color: #000;
-    height: 100%;
+    height: 100vh;
     width: 350px;
     border-radius: 1rem;
     margin: .5rem .3rem;
 }
 
-.music-player {
-    background-color: black;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 72px;
-}
+
 
 
 .side-nav {
+
     background-color: #121212;
     border-radius: .5rem;
     height: 100px;
@@ -295,4 +292,41 @@
     margin: .5rem;
     padding: .5rem;
     background-color: #2d2d2d;
+}
+
+/* Music Player */
+
+.music-player {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 72px;
+    margin-bottom: 1.25rem;
+}
+
+.left-mp {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.left-mp img {
+    width: 4rem;
+    height: 4rem;
+
+}
+
+.left-mp i {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: 2rem;
+}
+
+.album-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 1rem;
 }

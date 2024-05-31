@@ -55,7 +55,7 @@ Contributions are welcome! If you have any suggestions or improvements, please c
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
 ## Contact
-If you have any questions or suggestions, feel free to contact me at [your-riteshraj140104@gmail.com](mailto:your-riteshraj140104@gmail.com).
+If you have any questions or suggestions, feel free to contact me at [riteshraj140104@gmail.com](mailto:your-riteshraj140104@gmail.com).
 
 ---
 

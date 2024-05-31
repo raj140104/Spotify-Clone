@@ -309,21 +309,26 @@
 }
 
 .left-mp {
+
+    height: 45px;
     display: flex;
     align-items: center;
     padding: 1rem;
 }
 
 .left-mp img {
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
 
 }
 
 .left-mp i {
-    width: 1.25rem;
-    height: 1.25rem;
+
+    width: 1.5rem;
+    height: 1.5rem;
     margin-left: 2rem;
+    opacity: .6;
+
 }
 
 .album-content {
@@ -337,11 +342,19 @@
 .mp-control {
     display: flex;
     align-items: center;
+    margin-right: 7rem;
 
 }
 
 .mp-control img {
     width: 1.25rem;
     height: 1.25rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
+
+}
+
+.right-mp i {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 2rem;
 }
